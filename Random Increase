@@ -1,0 +1,18 @@
+int i;
+            Console.Write("1)5 2)5 3)7 ?");
+            int increase =Convert.ToInt32(Console.ReadLine());
+            if(increase==3){
+                for(i=0;i<=100;i+=increase){
+                    Console.WriteLine(i);
+                }
+            }
+                else if(increase==5){
+                    for(i=0;i<100;i+=increase){
+                        Console.WriteLine(i);
+                    }
+                }
+                else if(increase==7){
+                    for(i=0;i<100;i+=increase){
+                        Console.WriteLine(i);
+                    }
+                } Console.ReadKey();
