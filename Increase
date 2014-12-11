@@ -1,0 +1,13 @@
+int i;
+            Console.Write("Which number do you want to start ?");
+            int start = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Increase ?");
+            int increase = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Which number do you want to end your serie?");
+            int serie = Convert.ToInt32(Console.ReadLine());
+
+            for (i = start; i <= serie; i+=increase)
+            {
+                Console.WriteLine(i);
+            }
+                Console.ReadKey();
