@@ -1,0 +1,7 @@
+Console.WriteLine("Which number's factorial do you want to calculate ?");
+            int number = Convert.ToInt32(Console.ReadLine());
+            for (int i = number-1; i >= 1; i--)
+            {
+                number = number * i;
+            } Console.WriteLine(number);
+            Console.ReadLine();
